@@ -1,0 +1,9 @@
+apiVersion: security.istio.io/v1beta1
+kind: PeerAuthentication
+metadata:
+  name: default
+  namespace: "assign3"
+spec:
+  mtls:
+    mode: DISABLE
+
